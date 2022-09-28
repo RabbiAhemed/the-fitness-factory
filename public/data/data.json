@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "image": "https://cdn.muscleandstrength.com/sites/default/files/styles/400x250/public/taxonomy/image/workouts/chestworkouts.jpg?itok=4fRxwlBd",
+        "name": "Bench Press",
+        "description": "Bench presses can be used to increase strength, improve endurance, and tone the muscles of the upper body, including the chest, arms, and shoulders.",
+        "age": "20-25",
+        "time": 30
+    },
+    
+    {
+        "id": 2,
+        "image": "https://cdn.muscleandstrength.com/sites/default/files/styles/400x250/public/taxonomy/image/workouts/backworkouts.jpg?itok=n1xpz4jW",
+        "name": "Pull Ups",
+        "description": "pull-ups strengthen and sculpt your shoulders, forearms, and chest (pecs). They also engage your abs, including your deep transverse abdominis, making them a great exercise for targeting many of the major muscles in the body.",
+        "age": "20-25",
+        "time": 30
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1629003955089-5c43fcc66c68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+        "name": "Ab Crunch",
+        "description": "Crunches have been the mainstay of ab workouts for decades. They target the rectus abdominis, the six-pack muscle that runs along the front of the torso.",
+        "age": "20-25",
+        "time": 30
+    },
+    {
+        "id": 4,
+        "image": "https://cdn.muscleandstrength.com/sites/default/files/styles/400x250/public/taxonomy/image/workouts/chestworkouts.jpg?itok=4fRxwlBd",
+        "name": "Chest Press",
+        "description": "The chest press is one of the best chest exercises for building upper body strength. The chest press targets your pectorals, deltoids, and triceps, building muscle tissue and strength.",
+        "age": "20-25",
+        "time": 30
+    },
+    {
+        "id": 5,
+        "image": "https://cdn.muscleandstrength.com/sites/default/files/styles/400x250/public/taxonomy/image/workouts/legworkouts.jpg?itok=da36AXWf",
+        "name": "Walking Lunge",
+        "description": "Walking lunges strengthen the leg muscles as well as the core, hips, and glutes. You can also make walking lunges more challenging by adding weights or doing a walking lunge with a torso twist.",
+        "age": "20-25",
+        "time": 30
+    },
+    {
+        "id": 6,
+        "image": "https://cdn.muscleandstrength.com/sites/default/files/styles/400x250/public/taxonomy/image/workouts/workoutsformen.jpg?itok=jALf6fyP",
+        "name": "Dumbbell Lift ",
+        "description": "Dumbbell exercises  offer more variety than almost any other piece of gym kit going, dumbbell exercises will  help you expedite fat loss, develop total-body strength, build maximum muscle mass and even level up your cardio.",
+        "age": "20-25",
+        "time": 30
+    }
+
+    
+]
