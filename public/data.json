@@ -5,7 +5,7 @@
         "name": "Bench Press",
         "description": "Bench presses can be used to increase strength, improve endurance, and tone the muscles of the upper body, including the chest, arms, and shoulders.",
         "age": "20-25",
-        "time": 30
+        "seconds": 30
     },
     
     {
@@ -14,7 +14,7 @@
         "name": "Pull Ups",
         "description": "pull-ups strengthen and sculpt your shoulders, forearms, and chest (pecs). They also engage your abs, including your deep transverse abdominis, making them a great exercise for targeting many of the major muscles in the body.",
         "age": "20-25",
-        "time": 30
+        "seconds": 30
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "name": "Ab Crunch",
         "description": "Crunches have been the mainstay of ab workouts for decades. They target the rectus abdominis, the six-pack muscle that runs along the front of the torso.",
         "age": "20-25",
-        "time": 30
+        "seconds": 30
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "name": "Chest Press",
         "description": "The chest press is one of the best chest exercises for building upper body strength. The chest press targets your pectorals, deltoids, and triceps, building muscle tissue and strength.",
         "age": "20-25",
-        "time": 30
+        "seconds": 30
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@
         "name": "Walking Lunge",
         "description": "Walking lunges strengthen the leg muscles as well as the core, hips, and glutes. You can also make walking lunges more challenging by adding weights or doing a walking lunge with a torso twist.",
         "age": "20-25",
-        "time": 30
+        "seconds": 30
     },
     {
         "id": 6,
@@ -46,7 +46,7 @@
         "name": "Dumbbell Lift ",
         "description": "Dumbbell exercises  offer more variety than almost any other piece of gym kit going, dumbbell exercises will  help you expedite fat loss, develop total-body strength, build maximum muscle mass and even level up your cardio.",
         "age": "20-25",
-        "time": 30
+        "seconds": 30
     }
 
     

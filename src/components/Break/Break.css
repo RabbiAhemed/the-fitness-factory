@@ -1,0 +1,13 @@
+.break {
+  /* text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(5 1fr);
+  grid-gap: 2%;
+
+  background-color: yellow;
+}
