@@ -17,16 +17,16 @@ const User = () => {
       </div>
       <div className="height-weight-age">
         <div className="weight-info">
-          <div>75kg</div>
+          <div className="fw-bold">75kg</div>
           <div>Weight</div>
         </div>
 
         <div className="height-info">
-          <div>5.10 ft</div>
+          <div className="fw-bold">5.10 ft</div>
           <div>Height</div>
         </div>
         <div className="age-info">
-          <div>24yrs</div>
+          <div className="fw-bold">24yrs</div>
           <div>Age</div>
         </div>
       </div>

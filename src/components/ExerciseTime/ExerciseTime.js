@@ -7,7 +7,7 @@ const ExerciseTime = (props) => {
       <div className="time-section">
         <h6 style={{ textAlign: "start" }}>Exercise Time </h6>
         <h6 className="text-muted" style={{ textAlign: "start" }}>
-          {totalTime}
+          {totalTime} seconds
         </h6>
       </div>
     </div>

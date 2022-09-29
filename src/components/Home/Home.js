@@ -18,7 +18,7 @@ const Home = () => {
     setTime(newTime);
   };
   return (
-    <div className="home-container">
+    <div className="home-container container">
       <div className="activities">
         {activities.map((activity) => (
           <Activity

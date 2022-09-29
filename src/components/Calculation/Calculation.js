@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Break from "../Break/Break";
 import BreakTime from "../BreakTime/BreakTime";
+import Complete from "../Complete/Complete";
 import ExerciseTime from "../ExerciseTime/ExerciseTime";
 import User from "../User/User";
 import "./Calculation.css";
@@ -23,7 +24,7 @@ const Calculation = (props) => {
     <div className="calculation">
       <User></User>
       <br />
-      <h4 style={{ textAlign: "start" }}>Add a break</h4>
+      <h5 style={{ textAlign: "start" }}>Add a break</h5>
 
       {/* break section */}
       <Break getTime={getTime}></Break>
@@ -35,7 +36,8 @@ const Calculation = (props) => {
         <ExerciseTime totalTime={totalTime}></ExerciseTime>
         <BreakTime breakTime={breakTime}></BreakTime>
       </div>
-      <button>Activity Completed</button>
+      <br />
+      <Complete></Complete>
     </div>
   );
 };

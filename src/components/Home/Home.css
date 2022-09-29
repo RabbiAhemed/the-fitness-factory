@@ -9,3 +9,21 @@
   grid-template-columns: 4fr 1fr;
   grid-gap: 2%;
 }
+
+@media screen and (max-width: 480px) {
+  .activities {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 20px;
+    /* align-items: center;
+    justify-content: space-between; */
+  }
+
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 20px;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+  }
+}
