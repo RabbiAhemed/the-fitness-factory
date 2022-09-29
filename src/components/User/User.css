@@ -1,0 +1,21 @@
+.user {
+  display: flex;
+  align-items: center;
+}
+.user-image {
+  width: 30%;
+  height: 100%;
+}
+.user-info {
+  padding-left: 5%;
+}
+.height-weight-age {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(245, 247, 250);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 5%;
+  margin: 0 2%;
+}
