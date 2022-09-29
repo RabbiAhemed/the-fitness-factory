@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Break from "../Break/Break";
 import "./Calculation.css";
+
 const Calculation = (props) => {
   const { totalTime } = props;
 
-  const objects = [
-    { id: 1, value: 10 },
-    { id: 2, value: 20 },
-    { id: 3, value: 30 },
-    { id: 4, value: 40 },
-    { id: 5, value: 50 },
-  ];
+  // const objects = [
+  //   { id: 1, value: 10 },
+  //   { id: 2, value: 20 },
+  //   { id: 3, value: 30 },
+  //   { id: 4, value: 40 },
+  //   { id: 5, value: 50 },
+  // ];
+
+  // const[break,setBreak]=useState(0);
+  const getValue = (data) => {
+    console.log(data);
+  };
 
   return (
     <div className="calculation">
@@ -43,15 +49,42 @@ const Calculation = (props) => {
       <br />
       <h4 style={{ textAlign: "start" }}>Add a break</h4>
 
-      {objects.map((object) => (
+      {/* {objects.map((object) => (
         <Break value={object.value} key={object.id}></Break>
-      ))}
-      {/* <div className="break">
-        <button>10</button>
-        <button>20</button>
-        <button>30</button>
-        <button>40</button>
-      </div> */}
+      ))} */}
+      {/* break section */}
+      <div className="break mx-2 rounded">
+        <button
+          onClick={() => getValue(10)}
+          className="break-button rounded-circle px-2 py-1"
+        >
+          10s
+        </button>
+        <button
+          onClick={() => getValue(20)}
+          className="break-button rounded-circle px-2 py-1"
+        >
+          20s
+        </button>
+        <button
+          onClick={() => getValue(30)}
+          className="break-button rounded-circle px-2 py-1"
+        >
+          30s
+        </button>
+        <button
+          onClick={() => getValue(40)}
+          className="break-button rounded-circle px-2 py-1"
+        >
+          40s
+        </button>
+        <button
+          onClick={() => getValue(50)}
+          className="break-button rounded-circle px-2 py-1"
+        >
+          50s
+        </button>
+      </div>
       <br />
       <br />
       <div className="exercise-detail">

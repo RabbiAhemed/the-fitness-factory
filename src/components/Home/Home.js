@@ -6,7 +6,7 @@ import "./Home.css";
 
 const Home = () => {
   const [activities, setActivities] = useState([]);
-  const [time, setTime] = useState([]);
+  const [time, setTime] = useState(0);
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
@@ -14,8 +14,8 @@ const Home = () => {
   }, []);
 
   const addToList = (seconds) => {
-    const newArray = [...time, seconds];
-    setTime(newArray);
+    const newTime = time + seconds;
+    setTime(newTime);
   };
   return (
     <div className="home-container">
