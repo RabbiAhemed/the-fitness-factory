@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Break from "../Break/Break";
 import BreakTime from "../BreakTime/BreakTime";
 import ExerciseTime from "../ExerciseTime/ExerciseTime";
@@ -9,10 +9,15 @@ const Calculation = (props) => {
   const { totalTime } = props;
 
   const [breakTime, setBreakTime] = useState(0);
-  const getValue = (data) => {
-    console.log(data);
-    setBreakTime(data);
+  // getting break time from button click and showing to ui and storing to database
+  const getTime = (time) => {
+    localStorage.setItem("time", time);
+    setBreakTime(time);
   };
+  useEffect(() => {
+    const storedTime = localStorage.getItem("time");
+    setBreakTime(storedTime);
+  }, []);
 
   return (
     <div className="calculation">
@@ -21,7 +26,7 @@ const Calculation = (props) => {
       <h4 style={{ textAlign: "start" }}>Add a break</h4>
 
       {/* break section */}
-      <Break getValue={getValue}></Break>
+      <Break getTime={getTime}></Break>
       <br />
       <br />
       <div className="exercise-detail">
@@ -30,6 +35,7 @@ const Calculation = (props) => {
         <ExerciseTime totalTime={totalTime}></ExerciseTime>
         <BreakTime breakTime={breakTime}></BreakTime>
       </div>
+      <button>Activity Completed</button>
     </div>
   );
 };
